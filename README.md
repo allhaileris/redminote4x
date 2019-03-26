@@ -15,6 +15,7 @@ setprop sys.usb.config diag,adb
 
 dd if=/dev/zero of=/dev/block/bootdevice/by-name/modemst1
 dd if=/dev/zero of=/dev/block/bootdevice/by-name/modemst2
+dd if=/dev/zero of=/dev/block/bootdevice/by-name/fsg
 
 # Reboot device.
 ```
